@@ -21,6 +21,10 @@ Ever wanted to display complex flowcharts, sequence diagrams, or Gantt charts de
     *   Includes a `Coordinator` for handling `WKNavigationDelegate` events if needed.
 *   **Simple Integration:** Requires adding just one Swift file to your project.
 
+## Demo
+
+![Demo Screenshot](/Media/Demo_Rendering_Mermaid_Syntax.png)
+
 ## How it Works
 
 MermaidCanvas utilizes the `UIViewRepresentable` protocol to bridge UIKit's `WKWebView` into the SwiftUI environment.
