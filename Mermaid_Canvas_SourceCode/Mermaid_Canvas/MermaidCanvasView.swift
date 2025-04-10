@@ -233,7 +233,7 @@ struct MermaidCanvasView: View {
         end
         View->>View: Update UI<br/>(Display Status or Error)
         
-    """ // Default diagram
+    """ // Complex Diagram
     
     
     var body: some View {
