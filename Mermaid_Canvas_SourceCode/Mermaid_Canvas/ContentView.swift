@@ -1,24 +1,24 @@
+////
+////  ContentView.swift
+////  Mermaid_Canvas
+////
+////  Created by Cong Le on 4/9/25.
+////
 //
-//  ContentView.swift
-//  Mermaid_Canvas
+//import SwiftUI
 //
-//  Created by Cong Le on 4/9/25.
+//struct ContentView: View {
+//    var body: some View {
+//        VStack {
+//            Image(systemName: "globe")
+//                .imageScale(.large)
+//                .foregroundStyle(.tint)
+//            Text("Hello, world!")
+//        }
+//        .padding()
+//    }
+//}
 //
-
-import SwiftUI
-
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
-
-#Preview {
-    ContentView()
-}
+//#Preview {
+//    ContentView()
+//}
