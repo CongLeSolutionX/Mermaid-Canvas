@@ -578,7 +578,30 @@ graph TD
     *   **External Dependencies:** The crucial external dependency is the Mermaid.js library hosted on a CDN. Accessing this CDN requires an active Internet connection for the `WKWebView`.
 
 
+## 7. Adding Mermaid.js as a local bundle resource in iOS device
 
+Download the raw Mermaid js package by following the CDN link below.
+https://www.jsdelivr.com/package/npm/mermaid
+
+Please note that you can switch versions through the dropdown box at the top right.
+
+![Mermaid CDN dashboard](./Media/Mermaid_CDN_dashboard.png)
+
+After download the Mermaid package, go the the package folder to get the raw file `mermaid.min.js`.
+
+![Local_Mermaid_js_file](./Media/Local_Mermaid_js_file.png)
+
+
+then, integrate the `mermaid.min.js` file into your Xcode project, following the steps below:
+
+![Integrate_Mermaid_js_into_Xcode_project](./Media/Integrate_Mermaid_js_into_Xcode_project.png)
+
+
+**Add to Project Bundle:** Include the downloaded `.js` file in your Xcode project and ensure it's part of your app target's "Copy Bundle Resources" build phase.
+
+**Update HTML:** Modify the `<script src="...">` tag within the generated HTML to point to the *relative path* of the local `mermaid.min.js` file.
+
+**Set Base URL:** When loading the HTML string into the `WKWebView`, provide the URL of the app's main bundle resource directory as the `baseURL`. This tells the `WKWebView` where to look for files referenced with relative paths (like `mermaid.min.js`).
 
 ---
 **Licenses:**
