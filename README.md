@@ -1,10 +1,17 @@
 # MermaidCanvas for SwiftUI
 
-**Seamlessly render [Mermaid](https://mermaid.js.org/) diagrams within your SwiftUI applications.**
 
 [![Swift Version](https://img.shields.io/badge/Swift-5.5%2B-orange.svg)](https://swift.org/)
 [![Platform](https://img.shields.io/badge/Platform-iOS%2014%2B%20%7C%20macOS%2011%2B-blue.svg)](https://developer.apple.com/)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
+[![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](LICENSE-CC-BY)
+
+---
+Copyright (c) 2025 Cong Le. All Rights Reserved.
+
+---
+
+**Seamlessly render [Mermaid](https://mermaid.js.org/) diagrams within your SwiftUI applications.**
 
 Ever wanted to display complex flowcharts, sequence diagrams, or Gantt charts defined using the simple, text-based Mermaid syntax directly in your SwiftUI app? MermaidCanvas provides a straightforward technique using `UIViewRepresentable` to wrap a `WKWebView`, allowing you to render dynamic Mermaid diagrams with minimal effort.
 
@@ -136,4 +143,8 @@ Found a bug or have an improvement? Feel free to open an Issue or submit a Pull 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. (You would typically create a LICENSE file with the MIT license text).
+
+- **MIT License:**  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) - Full text in [LICENSE](LICENSE) file.
+- **Creative Commons Attribution 4.0 International:** [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](LICENSE-CC-BY) - Legal details in [LICENSE-CC-BY](LICENSE-CC-BY) and at [Creative Commons official site](http://creativecommons.org/licenses/by/4.0/).
+
+---
